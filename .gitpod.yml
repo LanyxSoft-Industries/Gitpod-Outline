@@ -1,9 +1,9 @@
 ports:
-  - port: 6080
+    port: 6080
     onOpen: open-preview
-#tasks:
-# - init:
-# - command:
+tasks:
+    init: chmod +x ./gradlew && chmod +x ./build.gradle
+#   command:
 #   name:
 
 image:
